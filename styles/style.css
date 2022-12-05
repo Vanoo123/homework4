@@ -56,3 +56,42 @@ nav ul li a {
 nav ul li a:hover {
     border-color: #c92929;
 }
+
+.card_wrapper {
+    text-align: center;
+    width: 500px;
+    background-color: rgba(255, 255, 255, 10%);
+    margin: 50px 0 0 700px;
+    height: 500px;
+    border-radius: 50px;   
+    transition: all .3s ease-in-out;
+}
+
+.my_photo {
+    width: 250px;
+    height: 300px;
+    border-radius: 50px;
+}
+
+.card_wrapper:hover {
+    transform: scale(1.1);
+    transition: transform 1s; 
+}
+
+.card_wrapper h1 {
+    color: white;
+}
+
+.card_name {
+    letter-spacing: 3px;
+    color: white;
+
+}
+
+.card_name span {
+    color: red;
+}
+
+.card_wrapper p {
+    color: white;
+}
